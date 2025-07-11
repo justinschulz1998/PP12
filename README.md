@@ -92,8 +92,8 @@ In this exercise you will:
 
 #### Reflection Questions
 
-1. **What steps are required to open an X11 window and receive events?**
-2. **How does the `Expose` event trigger your drawing code?**
+1. **What steps are required to open an X11 window and receive events? Xlib aufrufen um ein DIsplay darzustellen(Zeile 5). Nun wird ein Fenster in der gewünschten Größe dargestellt( Zeile 11-15). Im nächsten Schritt muss das Ereignis ausgewählt werden auf das reagiert werden soll(Zeile 17) und mit Xmap sichtbar gemacht.Anschließend kommt die eigentliche Schleife die auf die verschiedenen Ereignisse wartet   **
+2. **How does the `Expose` event trigger your drawing code?if (e.type == Expose) hier wird abgefragt ob der gesendete Ereignis eine Expose ereignis ist. Nur dann wird ein neuer Zeichenbefehl ausgelöst**
 
 ---
 
