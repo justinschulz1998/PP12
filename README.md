@@ -152,8 +152,8 @@ In this exercise you will:
 
 #### Reflection Questions
 
-1. **How does GTK’s signal-and-callback mechanism differ from X11’s event loop?**
-2. **Why use `pkg-config` when compiling GTK applications?**
+1. **How does GTK’s signal-and-callback mechanism differ from X11’s event loop?X11 Arbeitet mit Events welche dann einzeln ausgewertet werden müssne. GTK liefert hier die direkten Signale und aufrufe. Ist dementsprechend einfacher. **
+2. **Why use `pkg-config` when compiling GTK applications?Dadruch das jeder KOmpiler und linker anders arbeitet sollte hier der pkg-config compiler verwendet werden.**
 
 ---
 
